@@ -1,0 +1,7 @@
+def hell(a):
+    c=set()
+    for i in a:
+        c.add(i)
+    s=list(c)
+    return s
+print(hell(list(map(int,input().strip().split()))))
