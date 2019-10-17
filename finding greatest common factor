@@ -5,4 +5,4 @@ def gcd(a,b):
     return gcd(a-b,b)
   else:
     return gcd(a,b-a)
-print(gcd(12,15)) 
+print(gcd(int(input()),int(input())) 
