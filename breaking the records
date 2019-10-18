@@ -1,0 +1,19 @@
+n=int(input())
+a=list(map(int,input().split()))
+c=0
+d=0
+k=a[0]
+j=a[0]
+for i in range(len(a)):
+    
+    if a[i]>k:
+        k=a[i]
+        c+=1
+    elif a[i]<j:
+        j=a[i]
+        d+=1
+    else:
+        continue
+print(c,d)
+
+
